@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Roulettified";
+}
+
+<div class="splash-screen">
+    <div class="display-msg">
+        <span class="msg">Välj ett nummer innan ni använder knappen "snurra"!</span>
+        <div class="btn btn-success dismiss">Stäng</div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="spacer col-md-1"></div>
+    <div class="text-intro margin-adjustment block col-md-5">
+        <h2>Välkommen</h2>
+        <p>
+            Hej där!<br />
+            Låt oss se om turen är på din sida...
+        </p>
+    </div>
+
+    <div class="number-selection block col-md-5">
+        <p>Välj ditt turnummer</p>
+        <div class="icon selection-icon"></div>
+        <div class="col-md-12">
+            <div class="btn btn-default choice-btn col-md-3">1</div>
+            <div class="spacer col-md-1"></div>
+            <div class="btn btn-default choice-btn col-md-3">2</div>
+            <div class="spacer col-md-1"></div>
+            <div class="btn btn-default choice-btn col-md-3">3</div>
+            <div class="spacer col-md-1"></div>
+
+            <br /><br /><br />
+
+            <div class="btn btn-default choice-btn col-md-3">4</div>
+            <div class="spacer col-md-1"></div>
+            <div class="btn btn-default choice-btn col-md-3">5</div>
+            <div class="spacer col-md-1"></div>
+            <div class="btn btn-default choice-btn col-md-3">6</div>
+            <div class="spacer col-md-1"></div>
+
+            <br /><br /><br />
+
+            <div class="spacing col-md-3"></div>
+            <div class="btn btn-success spin col-md-5">Snurra</div>
+            <div class="spacing col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="spacer col-md-1"></div>
+    <div class="status margin-adjustment block col-md-5">
+        <div class="icon boxing-icon"></div>
+        <div class="col-md-6">
+            <h3>Du valde</h3>
+            <h2 class="p-highlight you-choice">-</h2>
+        </div>
+        <div class="col-md-6">
+            <h3>Spelet valde</h3>
+            <h2 class="p-highlight comp-choice">-</h2>
+        </div>
+    </div>
+
+    <div class="result block col-md-5">
+        <div class="icon trophy-icon"></div>
+        <div class="spacing col-md-1"></div>
+        <div class="result-text col-md-6"><h3 class="highlight">---</h3></div>
+        <div class="result-stats col-md-5">
+            <br /><br /><br /><br /><br />
+            <p class="p-no-center p-no-pad"><span>Snurrningar: </span><span class="spins">0</span></p>
+            <p class="p-no-center p-no-pad"><span>Statistik: </span><span class="stat">0</span><span> %</span></p>
+            <br />
+            <div class="btn btn-warning reset col-md-12">Återställ</div>
+        </div>
+    </div>
+</div>

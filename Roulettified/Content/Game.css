@@ -1,0 +1,139 @@
+﻿.picture-intro {
+    background-image: url("Images/infinity.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+    float: left;
+    animation: roll 5s infinite;
+    transform: rotate(0deg);
+}
+
+.icon {
+    background-size: 22px 22px;
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.selection-icon { background-image: url("Images/checklist.png"); }
+.leader-icon { background-image: url("Images/leaderboard.png"); }
+.boxing-icon { background-image: url("Images/boxing.png"); }
+.trophy-icon { background-image: url("Images/trophy.png"); }
+
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.block {
+    margin: 10px;
+    height: 250px;
+    background-repeat: repeat;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .4), 0px 1px 0px rgba(0, 0, 0, .2);
+}
+
+.margin-adjustment {
+    margin-left: -20px;
+}
+
+.text-intro {
+    background-image: url("Images/bg/gray_fore.png");
+}
+
+.number-selection {
+    padding-top: 20px;
+    background-image: url("Images/bg/gray_fore.png");
+}
+
+.status {
+    background-image: url("Images/bg/gray_fore.png");
+}
+
+.result {
+    background-image: url("Images/bg/gray_fore.png");
+}
+
+.row {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.highlight {
+    font-size: 42px;
+    padding-top: 65px;
+    margin-left: -59px;
+}
+
+.flashtext {
+    color: #fac2fd!important;
+    text-shadow: 2px 2px #000;
+}
+
+.flashbutton {
+    background-color: #fac2fd!important;
+    box-shadow: inset 2px 2px 2px #fff;
+}
+
+.choice-btn { 
+    background-color: #fff;
+    margin-left: 9px;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+.splash-screen {
+    background-color: rgba(0, 0, 0, 0.73);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+    z-index: 5;
+}
+
+.display-msg {
+    font-family: Marketing-script, HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Open Sans Local',Arial,sans-serif;
+    font-size: 22px;
+    padding: 30px;
+    background-color: #252525;
+    box-shadow: inset 0px 0px 2px #666;
+    background-repeat: repeat;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    color: #FAC2FD !important;
+    text-shadow: 2px 2px #000;
+}
+
+.dismiss {
+    width: 100%;
+    margin-top: 34px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
